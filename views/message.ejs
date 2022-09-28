@@ -1,0 +1,17 @@
+<html>
+<body>
+
+	<% if(students.length === 0) { %>
+		Not valid
+	<% } %>
+	<ul>
+
+		<% for(var i = 0; i < students.length; i++) { %>
+		<li> 
+			<%= students[i].name %>
+		</li>
+		<% } %>
+		
+	</ul>
+</body>
+</html>
